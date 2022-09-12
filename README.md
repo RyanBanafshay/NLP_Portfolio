@@ -17,3 +17,4 @@ https://github.com/RyanBanafshay/NLP_Portfolio/blob/main/textProcessing.py
 
 
 ## NLTK exploration Assignment #2
+https://github.com/RyanBanafshay/NLP_Portfolio/blob/main/exploringNLTK.pdf
