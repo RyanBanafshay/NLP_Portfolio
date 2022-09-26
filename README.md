@@ -18,3 +18,10 @@ https://github.com/RyanBanafshay/NLP_Portfolio/blob/main/textProcessing.py
 
 ## NLTK exploration Assignment #2
 https://github.com/RyanBanafshay/NLP_Portfolio/blob/main/exploringNLTK.pdf
+
+## Word Guessing Game Assignment #3
+https://github.com/RyanBanafshay/NLP_Portfolio/blob/main/wordGuessGame.py
+
+## WordNet Processing Assignment #4
+https://github.com/RyanBanafshay/NLP_Portfolio/blob/main/BanafshayWordnet.ipynb%20-%20Colaboratory.pdf
+
