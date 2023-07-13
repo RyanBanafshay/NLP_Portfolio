@@ -1,0 +1,12 @@
+User name:  john
+Likes:  ['singularity', 'galaxy', 'horizon']
+Dislikes:  ['gravastars', 'magnetic']
+----------------------
+User name:  kyle
+Likes:  ['shadow', 'magnetic']
+Dislikes:  ['interstellar', 'wormhole']
+----------------------
+User name:  ryan
+Likes:  ['interstellar', 'wormhole']
+Dislikes:  ['singularity', 'galaxy']
+----------------------

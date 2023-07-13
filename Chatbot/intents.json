@@ -1,0 +1,71 @@
+{"intents": [
+  { "tag": "greeting",
+    "patterns": ["hi","hello","how are you","what's up","good day", "hola", "good day"],
+    "responses": ["Hellooo"],
+    "context_req": [""],
+    "context_set" : [""]
+  },
+  { "tag": "welcomeback",
+    "patterns": ["i am back", "did you miss me", "back", "i've returned", "i have returned", "i back"],
+    "responses": ["Welcome back!", "Good to see you again.", "Back so early!"],
+    "context_req": [""],
+    "context_set" : [""]
+  },
+  { "tag": "goodbye",
+    "patterns": ["bye", "see you later", "goodbye", "i'm leaving", "bye bye", "good bye", "see you", "later"],
+    "responses": ["Goodbye.", "See you next time."],
+    "context_req": [""],
+    "context_set" : [""]
+  },
+  { "tag": "thanks",
+    "patterns": ["thank you", "thanks"],
+    "responses": ["No problem.", "My pleasure.", "Of course."],
+    "context_req": [""],
+    "context_set" : [""]
+  },
+  { "tag": "noanswer",
+    "patterns": ["", "teach me", "i want to learn", "tell me something", "say something", "uh", "idk", "teach me something", "uhm", "something"],
+    "responses": ["Sorry, I don't really understand. Do you have anything you would like to learn about?", "Didn't quite get that. I can teach you about some stuff in Astronomy, would you like that?", "Apologies, I don't understand. Are you interested in Astronomy?", "Sorry, I don't get what you're saying. Want to learn more about Astronomy?"],
+    "context_req": [""],
+    "context_set" : ["asktopics"]
+  },
+  { "tag": "options",
+    "patterns": ["yes", "sure", "okay", "what do you do", "what can you do", "what do you know", "what can i learn", "teach me something", "ok"],
+    "responses": ["I know a few terms related to Astronomy off the top of my head: magnetic, singularity, horizon, galaxies, interstellar, wormhole, gravastars, telescope, suns, shadow."],
+    "context_req": ["asktopics"],
+    "context_set" : ["topics"]
+  },
+  { "tag": "intro",
+      "patterns": ["what's your name", "what should i call you", "who are you", "what are you", "what do i call you", "what is your name", "tell me about yourself", "your name", "name"],
+      "responses": ["My name is Astrobot", "The name is Astrobot", "Astrobot!"],
+      "context_req": [""],
+      "context_set" : [""]
+  },
+  {
+    "tag": "likes",
+    "patterns": ["what do i like", "what am i interested in", "what are my interests", "what do you know about me", "do you know what i like", "what do i love"],
+    "responses": ["I think you seem interested in the term "],
+    "context_req": [""],
+    "context_set": [""]
+  },
+   {
+     "tag": "dislikes",
+     "patterns": ["what do i not like", "what do i dislike", "what do i hate", "what don't i like", "what i don't like", "don't", "dont", "do not", "not"],
+     "responses": ["I think you don't seem interested in the term "],
+     "context_req": [""],
+     "context_set": [""]
+   },
+   {
+     "tag": "otheroptions",
+     "patterns":["no","no i do not", "no i don't", "not really", "sorry", "nope", "nah"],
+     "responses":["You're missing out, just ask me to teach you!"],
+     "context_req":["asktopics"],
+     "context_set":[""]
+   },
+   { "tag": "options2",
+     "patterns": ["what do you do", "what can you do", "what do you know", "what can i learn", "teach me something"],
+     "responses": ["I know a few terms related to Astronomy off the top of my head: magnetic, singularity, horizon, galaxies, interstellar, wormhole, gravastars, telescope, suns, shadow."],
+     "context_req": [""],
+     "context_set" : ["topics"]
+   }
+]}
